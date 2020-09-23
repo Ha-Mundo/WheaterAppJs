@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>What you Weather want?</title>
+</head>
+<body >
+  <div class="container d-flex flex-column justify-content-center mt-4 meteo">
+
+   <h1 class="text-light text-center ">What you Weather want?</h1>
+
+    <form class="change-location my-4 text-center text-light  ">
+    <label for="city ">Enter any location </label>
+    <input type="text" name="city" class="form-control p-4">
+     </form>
+
+    <div class="card shadow-md rounded d-none ">
+     <div class="row align-items-center">
+       <div class="col-sm">
+
+         <div class="icon m-3 mx-auto d-flex align-items-center justify-content-center ">
+        <img style="color: white;" class="text-center   " src="" alt="">
+        </div>
+       </div>
+       <div class="col-lg">
+
+         <div class="text-muted text-uppercase text-center details">
+            <h5 class="my-3">city name</h5>
+           <div class="my-3">weather condition</div>
+           <div class="display-4 my-4">
+             <span>temp</span>
+             <span>&deg;C</span>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+  </div>
+
+
+  <script src='./script/forecast.js'></script>
+  <script src="./script/app.js"></script>
+</body>
+</html>

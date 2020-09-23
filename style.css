@@ -1,0 +1,41 @@
+body{
+    background: url(./img/question-background.png) no-repeat center center/cover;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: .8em;
+  }
+
+h1 {background-color: rgba(0, 0, 0, 0.418);}
+
+form {background-color: rgba(0, 0, 0, 0.808);}
+
+label {
+  color:rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;}
+  
+  .container{
+    max-width: 500px;
+    height:100vh;
+  }
+  .icon{
+    background-color: rgba(253, 253, 253, 0.966);
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 6px solid rgba(202, 202, 202, 0.973);
+    border-radius: 50%;
+    
+  }
+  
+  .bg-1{
+    background: url(./img/day1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-2{
+    background: url(./img/night1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
